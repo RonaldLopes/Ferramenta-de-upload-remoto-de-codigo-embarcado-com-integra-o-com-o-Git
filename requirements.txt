@@ -1,0 +1,16 @@
+altgraph==0.16.1
+certifi==2019.3.9
+chardet==3.0.4
+Deprecated==1.2.5
+future==0.17.1
+gitdb2==2.0.5
+GitPython==2.1.11
+idna==2.8
+macholib==1.11
+pefile==2019.4.18
+PyInstaller==3.4
+PyJWT==1.7.1
+requests==2.22.0
+smmap2==2.0.5
+urllib3==1.25.2
+wrapt==1.11.1
