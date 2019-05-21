@@ -12,6 +12,7 @@ class plytformio(object):
             pass
         self.gitUrl = str(sys.argv[1]).replace("https://","") #github.com/RonaldLopes/IOT-Trabalho-Final
         self.time = int(sys.argv[2]) * 60
+
     def start(self):
         self.userName = input("Informe o seu nome de usuario do git: ")
         try:
@@ -43,6 +44,6 @@ class plytformio(object):
             os.system("platformio run -t upload")
         except Exception as erro:
             print("Erro: " + erro)
+
 temp = plytformio()
-# temp.uploadCode()
 temp.start()
